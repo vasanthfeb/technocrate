@@ -1,0 +1,16 @@
+.technocrate_logo {
+    width: 300px;
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 150px;
+    right: 13px;
+    z-index: 1000;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
