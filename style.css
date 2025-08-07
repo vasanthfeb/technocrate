@@ -14,3 +14,15 @@
 .whatsapp-float:hover {
     transform: scale(1.1);
 }
+
+.vas {
+    background-color: #2b3f5f !important;
+    fill: #ffffff !important;
+    color: #ffffff !important;
+    border: 2px solid #2b3f5f !important;
+}
+
+.vas:hover {
+    color: #ffffff !important;
+    border: 2px solid #2b3f5f;
+}
