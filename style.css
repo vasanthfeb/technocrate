@@ -50,6 +50,7 @@ a{
     background-color: #ffffff !important;
     color: #1c2b4a !important;
     border: 2px solid #ffffff !important;
+    font-weight: 600 !important;
     
 
 }
@@ -142,6 +143,9 @@ a{
   object-position: center;
 
 }
+.mf{
+  background-color: #2b3f5f;
+}
 
 .s3{
   margin-left: 70px;
@@ -180,8 +184,8 @@ footer{
   color: darkgray;
 
 }
-.subb:hover{
-  color: #ffffff;
+.subb:hover a{
+  color: #ffffff !important;
 }
 .whatsapp-float {
     position: fixed;
