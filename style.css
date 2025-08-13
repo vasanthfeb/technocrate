@@ -71,6 +71,12 @@ a{
     font-weight: 600;
     font-family: "Inter", sans-serif;
 }
+.nav-link:hover{
+  color: #1c2b4a !important;
+}
+.nav-link{
+  font-weight: 600 !important;
+}
 .fab {
     color: #1c2b4a;
 }
@@ -79,12 +85,12 @@ a{
     color: #ffffff !important;
     border: none !important;
     border: 2px solid #1c2b4a !important;
-    font-weight: 600 !important;
+    font-weight: 600 !important ;
 }
 .btn-danger:hover{
     background-color: #ffffff !important;
     color: #1c2b4a !important;
-    border: 2px solid #1c2b4a !important;
+    border: 2px solid #ffffff !important;
     font-weight: 600 !important;
 }
 #vasanth {

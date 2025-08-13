@@ -8,4 +8,10 @@
  .card {
   height: 640px !important;
 }
+.min{
+      margin-top: -100px !important;
+}
+.navbar-toggler{
+      margin-right: 10px;
+}
 }

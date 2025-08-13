@@ -61,7 +61,7 @@
 <!-- Dummy Sections -->
 <section id="home"  class=" pt-5 pb-5 home_section">
     <div class="container-fluid p-5">
-        <div class="row ">
+        <div class="row min">
         <div class="col-lg-5 mt-5"> <h1 class="main">Build Your Creative  Career </h1>
         <h3 class="text-light">Industry-relevant training and professional design services to transform your passion into a thriving career. </h3>
         <div class="d-flex mt-5 gap-3 d-none d-md-block">
@@ -76,12 +76,13 @@
         </div>
         <div class="col-lg-7 person-container">
            <!-- Background objects -->
-      <img src="./img/objects.svg" class="object obj1" alt="">
+      <img src="./img/objects.svg" class="object obj1 d-none d-sm-block" alt="">
       <!-- <img src="./img/objects.svg" class="object obj2" alt=""> -->
       <!-- <img src="./img/objects.svg" class="object obj3" alt=""> -->
 
       <!-- Person image -->
-      <img src="./img/guy.svg" class="person" alt="Person">
+      <img src="./img/guy.svg" class="person d-none d-sm-block" alt="Person">
+      <img src="./img/mobile.png" alt="" class="d-block d-sm-none w-100 mt-3">
       <script>
   document.addEventListener("mousemove", (e) => {
     const objects = document.querySelectorAll(".object");
