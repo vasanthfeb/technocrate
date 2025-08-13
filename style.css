@@ -90,7 +90,7 @@ a{
 .btn-danger:hover{
     background-color: #ffffff !important;
     color: #1c2b4a !important;
-    border: 2px solid #ffffff !important;
+    border: 2px solid #111827 !important;
     font-weight: 600 !important;
 }
 #vasanth {
@@ -137,10 +137,15 @@ a{
 .about-img{
  border-radius: 8px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 700px;
+  object-fit: cover;
+  object-position: center;
 
 }
 
-
+.s3{
+  margin-left: 70px;
+}
   .hero {
     padding: 60px 0;
   }
@@ -178,7 +183,14 @@ footer{
 .subb:hover{
   color: #ffffff;
 }
-
+.whatsapp-float {
+    position: fixed;
+    bottom: 150px;
+    right: 13px;
+    z-index: 1000;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
 
 
 .testimonial-card {
