@@ -5,4 +5,7 @@
  .main{
        font-size: 39px;
  }
+ .card {
+  height: 640px !important;
+}
 }
