@@ -164,9 +164,20 @@ a{
   .obj2 { top: 150px; right: 20px; }
   .obj3 { bottom: 50px; left: 150px; }
 
+footer{
+  background-color: #111827;
+}
+.wight{
+  background-color: #ffffff;
+  border-radius: 9px;
+}
+.subb{
+  color: darkgray;
 
-
-
+}
+.subb:hover{
+  color: #ffffff;
+}
 
 
 
