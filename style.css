@@ -206,6 +206,12 @@ footer{
   80% { transform: rotate(-10deg); }
   100% { transform: rotate(0deg); }
 }
+.imgimg{
+  width: 100%;
+  height: 200px;
+object-position: center;
+  object-fit: cover;
+}
 
 .testimonial-card {
   background: #fff;
@@ -264,9 +270,106 @@ body{
 }
 
 
+.read-more-container {
+  max-height: 50px; /* collapsed height */
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.read-more-container.expanded {
+  max-height: 500px; /* big enough to show full content */
+}
+.vk{
+  font-size: 40px !important;
+ color: #111827;
+}
+.read-more-btn2{
+    margin-top: 10px;
+  background: #ffffff;
+  color: #fff;
+  padding: 6px 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+
+}
+.read-more-btn3{
+    margin-top: 10px;
+  background: #ffffff;
+  color: #fff;
+  padding: 6px 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+  .read-more-btn4{
+    margin-top: 10px;
+  background: #ffffff;
+  color: #fff;
+  padding: 6px 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+
+}
 
 
+.read-more-btn5{
+    margin-top: 10px;
+  background: #ffffff;
+  color: #fff;
+  padding: 6px 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
 
+}
+
+.read-more-btn6{
+    margin-top: 10px;
+  background: #ffffff;
+  color: #fff;
+  padding: 6px 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+
+}
+
+.read-more-btn7{
+    margin-top: 10px;
+  background: #ffffff;
+  color: #fff;
+  padding: 6px 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+
+}
+
+.read-more-btn   {
+  margin-top: 10px;
+  background: #007bff;
+  color: #fff;
+  padding: 6px 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.cardd{
+  max-height: 900px;
+  background-color: #ffffff;
+}
+li{
+  list-style-type: none !important;
+}
+.read-more-btn , .read-more-btn2 , .read-more-btn3 , .read-more-btn4 , .read-more-btn5 , .read-more-btn6 , .read-more-btn7{
+  background-color: #fff;
+  border: 2px solid #111827;
+  color: #111827;
+  font-weight: 600;
+}
 
 @media (max-width: 991px) { /* Bootstrap breakpoint for mobile/tablet */
   html {
