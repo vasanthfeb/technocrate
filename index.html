@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
- 
- <link rel="preload" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+    <link rel="preload" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
 
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -23,995 +24,1324 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
+
 <body>
     <!-- nav start -->
-<nav class="navbar navbar-expand-lg sticky-top">
-  <div class="container">
-    <!-- Logo -->
-    <a class="navbar-brand" href="#">
-      <img src="./img/Technocrate_logo_png.png" alt="Logo" class="main_logo">
-    </a>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="./img/Technocrate_logo_png.png" alt="Logo" class="main_logo">
+            </a>
 
-    <!-- Toggle Button -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <!-- Menu -->
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
-        <li class="nav-item"><a class="nav-link" href="#training">Training</a></li>
-        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
-      </ul>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#training">Training</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                </ul>
 
-      <!-- Enquiry Button -->
-      <a href="tel:+919092902492" class="btn btn-danger">Enquiry Now</a>
-    </div>
-  </div>
-</nav>
-<!-- nav end -->
-
-<!-- Dummy Sections -->
-<section id="home"  class=" pt-5 pb-5 home_section">
-    <div class="container-fluid p-5">
-        <div class="row min">
-        <div class="col-lg-5 mt-5"> <h1 class="main">Build Your Creative  Career </h1>
-        <h3 class="text-light">Industry-relevant training and professional design services to transform your passion into a thriving career. </h3>
-        <div class="d-flex mt-5 gap-4  d-none d-md-block">
-                <a href="#training" class="btn btn-lg btn-danger">Explore Courses</a>
-                <a href="#services" class="btn btn-lg btn-dangeros">Our Services</a>
-          </div>
-          <div class="d-block d-md-none">
-            <a href="#training" class="btn btn-lg btn-danger w-100 mt-2">Explore Courses</a>
-                <a href="#services" class="btn btn-lg btn-dangeros w-100 mt-2">Our Services</a>
-          </div>
-        
+                <!-- Enquiry Button -->
+                <a href="tel:+919092902492" class="btn btn-danger">Enquiry Now</a>
+            </div>
         </div>
-        <div class="col-lg-7 person-container">
-           <!-- Background objects -->
-      <img src="./img/objects.svg" class="object obj1 d-none d-sm-block" alt="">
-      <!-- <img src="./img/objects.svg" class="object obj2" alt=""> -->
-      <!-- <img src="./img/objects.svg" class="object obj3" alt=""> -->
+    </nav>
+    <!-- nav end -->
 
-      <!-- Person image -->
-      <img src="./img/guy.svg" class="person d-none d-sm-block" alt="Person">
-      <img src="./img/mobile.png" alt="" class="d-block d-sm-none w-100 mt-3">
-      <script>
-  document.addEventListener("mousemove", (e) => {
-    const objects = document.querySelectorAll(".object");
-    const centerX = window.innerWidth / 2;
-    const centerY = window.innerHeight / 2;
-    const moveX = (e.clientX - centerX) / 50;
-    const moveY = (e.clientY - centerY) / 50;
-
-    objects.forEach((obj, index) => {
-      const speed = (index + 1) * 5; // Different speed for each object
-      obj.style.transform = `translate(${moveX * speed}px, ${moveY * speed}px)`;
-    });
-  });
-</script>
-        </div>
-    </div>
-    </div>
-</section>
-
-
-<section id="about" style="max-height:300vh; background:#ffffff;" class=" mt-5 pt-5 pb-5">
-    <div class="container pt-3 mt-2 mt-sm-5">
-        <div class="a-top" data-aos="fade-up">
-            <h1 class="text-center title "> About <span style="text-transform: uppercase;">Technocrate</span></h1>
-            <h4 class="text-center mt-4">Career-focused training to transform your creative passion into <br> professional skills</h4>
-
-
-            <div class="row mt-5">
-              <div class="col-lg-6 "> <div class="m-3"><img src="./img/aboutimg.jpg" alt="" class="w-100 about-img"></div></div>
-              <div class="col-lg-6 ">
-                <div class="m-3">
-                  <h3 class="sub-title mb-3">Our Mission</h3>
-                  <h5 class="pp tj lg">At Technocrate, we bridge the gap between creative passion and career success through industry-relevant training. Our specialized programs in Graphic Design, Video Editing, UI/UX Design, Motion Graphics, and Visual Communication focus on practical skills, design thinking, user experience principles, and project-based learning — preparing students and job seekers for real-world roles in the creative and digital industries.</h5>
-
-                    <h3 class="sub-title mb-4 mt-4">Why Choose Us</h3>
-
-                    <div class="row row-cols-1 row-cols-md-2">
-                      <div class="col">  
-                        <h6><i class="fa-solid fa-user fa-thumbs-up px-3 ii mx-2"></i><b>Industry Experts</b></h6>
-                        <p class="s3">Learn from professionals with years of experience</p>
-                      </div>
-                      <div class="col">
-                        <h5> <i class="fa-solid fa-lightbulb px-3 ii mx-2"></i><b>Career Focused</b></h5>
-                        <p class="s3">Portfolio-driven training for job readiness</p>
-                      </div>
-                      <div class="col">
-                        <h6> <i class="fa-solid fa-thumbs-up px-3 ii mx-2"></i> <b>Flexible Schedule</b></h6>
-                        <p class="s3">Learn at your own pace with flexible hours</p>
-                      </div>
-                      <div class="col">
-                        <h6> <i class="fa-solid fa-bolt px-3 ii mx-2"></i> <b>Certification</b></h6>
-                        <p class="s3">Industry-recognized certificates</p>
-                      </div>
+    <!-- Dummy Sections -->
+    <section id="home" class=" pt-5 pb-5 home_section">
+        <div class="container-fluid p-5">
+            <div class="row min">
+                <div class="col-lg-5 mt-5">
+                    <h1 class="main">Build Your Creative Career </h1>
+                    <h3 class="text-light">Industry-relevant training and professional design services to transform your passion into a thriving career. </h3>
+                    <div class="d-flex mt-5 gap-4  d-none d-md-block">
+                        <a href="#training" class="btn btn-lg btn-danger">Explore Courses</a>
+                        <a href="#services" class="btn btn-lg btn-dangeros">Our Services</a>
+                    </div>
+                    <div class="d-block d-md-none">
+                        <a href="#training" class="btn btn-lg btn-danger w-100 mt-2">Explore Courses</a>
+                        <a href="#services" class="btn btn-lg btn-dangeros w-100 mt-2">Our Services</a>
                     </div>
 
+                </div>
+                <div class="col-lg-7 person-container">
+                    <!-- Background objects -->
+                    <img src="./img/objects.svg" class="object obj1 d-none d-sm-block" alt="">
+                    <!-- <img src="./img/objects.svg" class="object obj2" alt=""> -->
+                    <!-- <img src="./img/objects.svg" class="object obj3" alt=""> -->
+
+                    <!-- Person image -->
+                    <img src="./img/guy.svg" class="person d-none d-sm-block" alt="Person">
+                    <img src="./img/mobile.png" alt="" class="d-block d-sm-none w-100 mt-3">
+                    <script>
+                        document.addEventListener("mousemove", (e) => {
+                            const objects = document.querySelectorAll(".object");
+                            const centerX = window.innerWidth / 2;
+                            const centerY = window.innerHeight / 2;
+                            const moveX = (e.clientX - centerX) / 50;
+                            const moveY = (e.clientY - centerY) / 50;
+
+                            objects.forEach((obj, index) => {
+                                const speed = (index + 1) * 5; // Different speed for each object
+                                obj.style.transform = `translate(${moveX * speed}px, ${moveY * speed}px)`;
+                            });
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
-                    <div class="row row-cols-2 row-cols-md-4 mt-4">
-                      <div class="col">
-                        <h1 class="h11 text-center">95%</h1>
-                        <p class="text-center">Student Satisfaction  </p>
-                      </div>
-                      <div class="col">
-                        <h1 class="h11 text-center">850+</h1>
-                        <p  class="text-center">Graduates</p>
-                      </div>
-                      <div class="col">
-                        <h1 class="h11 text-center">78%</h1>
-                        <p class="text-center">Job Placement</p>
-                      </div>
-                      <div class="col">
-                        <h1 class="h11 text-center">4.8</h1>
-                        <p class="text-center">Google Rating</p>
-                      </div>
+    <section id="about" style="max-height:300vh; background:#ffffff;" class=" mt-5 pt-5 pb-5">
+        <div class="container pt-3 mt-2 mt-sm-5">
+            <div class="a-top" data-aos="fade-up">
+                <h1 class="text-center title "> About <span style="text-transform: uppercase;">Technocrate</span></h1>
+                <h4 class="text-center mt-4">Career-focused training to transform your creative passion into <br> professional skills</h4>
+
+
+                <div class="row mt-5">
+                    <div class="col-lg-6 ">
+                        <div class="m-3"><img src="./img/aboutimg.jpg" alt="" class="w-100 about-img"></div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="m-3">
+                            <h3 class="sub-title mb-3">Our Mission</h3>
+                            <h5 class="pp tj lg">At Technocrate, we bridge the gap between creative passion and career success through industry-relevant training. Our specialized programs in Graphic Design, Video Editing, UI/UX Design, Motion Graphics, and Visual Communication
+                                focus on practical skills, design thinking, user experience principles, and project-based learning — preparing students and job seekers for real-world roles in the creative and digital industries.</h5>
+
+                            <h3 class="sub-title mb-4 mt-4">Why Choose Us</h3>
+
+                            <div class="row row-cols-1 row-cols-md-2">
+                                <div class="col">
+                                    <h6><i class="fa-solid fa-user fa-thumbs-up px-3 ii mx-2"></i><b>Industry Experts</b></h6>
+                                    <p class="s3">Learn from professionals with years of experience</p>
+                                </div>
+                                <div class="col">
+                                    <h5> <i class="fa-solid fa-lightbulb px-3 ii mx-2"></i><b>Career Focused</b></h5>
+                                    <p class="s3">Portfolio-driven training for job readiness</p>
+                                </div>
+                                <div class="col">
+                                    <h6> <i class="fa-solid fa-thumbs-up px-3 ii mx-2"></i> <b>Flexible Schedule</b></h6>
+                                    <p class="s3">Learn at your own pace with flexible hours</p>
+                                </div>
+                                <div class="col">
+                                    <h6> <i class="fa-solid fa-bolt px-3 ii mx-2"></i> <b>Certification</b></h6>
+                                    <p class="s3">Industry-recognized certificates</p>
+                                </div>
+                            </div>
+
+
+
+                            <div class="row row-cols-2 row-cols-md-4 mt-4">
+                                <div class="col">
+                                    <h1 class="h11 text-center">95%</h1>
+                                    <p class="text-center">Student Satisfaction </p>
+                                </div>
+                                <div class="col">
+                                    <h1 class="h11 text-center">850+</h1>
+                                    <p class="text-center">Graduates</p>
+                                </div>
+                                <div class="col">
+                                    <h1 class="h11 text-center">78%</h1>
+                                    <p class="text-center">Job Placement</p>
+                                </div>
+                                <div class="col">
+                                    <h1 class="h11 text-center">4.8</h1>
+                                    <p class="text-center">Google Rating</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-              </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+
+
+    <!-- training us start -->
+    <section id="training" style="max-height:300vh; background:#dee2e6;" class=" mt-5 pt-5">
+        <div class="container pt-3 mt-2 mt-sm-5">
+            <div class="">
+                <h1 class="text-center title "> Training Programs</h1>
+                <h4 class="text-center mt-4">Career-focused training to transform your creative passion into <br> professional skills</h4>
+
+                <div class="pt-5 pb-5">
+                    <div class="row align-items-center py-2">
+                        <div class="position-relative">
+
+                            <!-- Slider main container -->
+                            <div class="swiper mySwiper-RANDOMID position-relative">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper mb-5">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide lc-block">
+                                        <div class="cardd p-3">
+                                            <div class="card-body">
+                                                <div class="lc-block mb-4">
+                                                    <div editable="rich">
+                                                        <img src="./training/graphic design.jpg" alt="" class="imgimg">
+                                                        <h3 class=" name mt-3"> Graphic Design</h3>
+
+                                                        <div class="read-more-container" id="readMoreContent">
+                                                            <p>
+                                                                Master the core principles of graphic design for both print and digital platforms. This hands-on program helps you build a job-ready portfolio through real-world projects.</p>
+                                                            <div>
+                                                                <ul>
+                                                                    <li class=" text-gray-600"> <span class="dot">●</span> Layout design, typography, and color theory</li>
+                                                                    <li class="mt-1 text-gray-600"> <span class="dot">●</span> Brand identity and marketing material creation</li>
+                                                                    <li class="mt-1 text-gray-600"> <span class="dot">●</span> Digital graphics for web and social media platforms</li>
+
+                                                                </ul>
+
+                                                                <p class="text-gray-600 mb-4 omt mt-2">Gain practical skills and creative confidence to launch your career as a professional graphic designer.</p>
+                                                            </div>
+                                                        </div>
+
+                                                        <button class="read-more-btn" id="readMoreBtn">Read More</button>
+
+                                                    </div>
+                                                    <div class="mt-3 d-flex"><a href="#" class="btn btn-danger ">Enroll Now</a> <a href="" class="mx-4 "><i class="fa-brands fa-whatsapp vk"></i></a> </div>
+                                                </div>
 
-
-<!-- training us start -->
-<section id="training" style="max-height:300vh; background:#dee2e6;" class=" mt-5 pt-5">
-     <div class="container pt-3 mt-2 mt-sm-5">
-        <div class="">
-            <h1 class="text-center title ">  Training Programs</h1>
-            <h4 class="text-center mt-4">Career-focused training to transform your creative passion into <br> professional skills</h4>
-
-            <div class="pt-5 pb-5">
-              <div class="row align-items-center py-2">
-		<div class="position-relative">
-			
-			<!-- Slider main container -->
-			<div class="swiper mySwiper-RANDOMID position-relative">
-				<!-- Additional required wrapper -->
-				<div class="swiper-wrapper mb-5">
-					<!-- Slides -->
-					<div class="swiper-slide lc-block">
-						<div class="cardd p-3">
-							<div class="card-body">
-								<div class="lc-block mb-4">
-									<div editable="rich">
-										<img src="./training/graphic design.jpg" alt="" class="imgimg">
-                    <h3 class=" name mt-3"> Graphic Design</h3>
-
-                    <div class="read-more-container" id="readMoreContent">
-  <p>
-    Master the core principles of graphic design for both print and digital platforms. This hands-on program helps you build a job-ready portfolio through real-world projects.</p>
-                                        <div>
-                                            <ul>
-                                                <li class=" text-gray-600"> <span class="dot">●</span> Layout design, typography, and color theory</li>
-                                                <li class="mt-1 text-gray-600"> <span class="dot">●</span> Brand identity and marketing material creation</li>
-                                                <li class="mt-1 text-gray-600"> <span class="dot">●</span> Digital graphics for web and social media platforms</li>
-
-                                            </ul>
-
-                                            <p class="text-gray-600 mb-4 omt mt-2">Gain practical skills and creative confidence to launch your career as a professional graphic designer.</p>
-                                        </div>
-</div>
-
-<button class="read-more-btn" id="readMoreBtn">Read More</button>
-                    
-									</div>
-                  <div class="mt-3 d-flex"><a href="#" class="btn btn-danger ">Enroll Now</a>  <a href="" class="mx-4 "><i class="fa-brands fa-whatsapp vk"></i></a> </div>
-								</div>
-								
-							</div>
-						</div>
-					</div>
-
-
-
-
-
-
-
-					<div class="swiper-slide lc-block">
-						<div class="cardd p-3">
-							<div class="card-body">
-								<div class="lc-block mb-4">
-									<div editable="rich">
-										<img src="./training/video editing.jpg" alt="" class="imgimg">
-                    <h3 class=" name mt-3"> Video Editing</h3>
-
-                    <div class="read-more-container" id="readMoreContent2">
-  <p>
-     Learn professional video editing techniques and craft impactful visual stories for various digital platforms. This hands-on course prepares you for creative roles in media and content production.</p>
-                                        <div>
-                                            <ul>
-                                                <li class=" text-gray-600"> <span class="dot">●</span> Video editing fundamentals, timeline editing, and storytelling techniques</li>
-                                                <li class="mt-1 text-gray-600"> <span class="dot">●</span> Color grading, transitions, and DI (Digital Intermediate) workflows</li>
-                                                <li class="mt-1 text-gray-600"> <span class="dot">●</span> Audio editing, syncing, and basic motion graphics</li>
-
-                                            </ul>
-
-                                            <p class="text-gray-600 mb-4 omt mt-2">Build a strong showreel and develop industry-ready skills for careers in film, advertising, content creation, and digital media.</p>
-                                        </div>
-</div>
-
-<button class="read-more-btn2" id="readMoreBtn2">Read More</button>
-                    
-									</div>
-                  <div class="mt-3 d-flex"><a href="#" class="btn btn-danger ">Enroll Now</a>  <a href="" class="mx-4 "><i class="fa-brands fa-whatsapp vk"></i></a> </div>
-								</div>
-								
-							</div>
-						</div>
-					</div>
-
-
-
-
-
-
-
-					<div class="swiper-slide lc-block">
-						<div class="cardd p-3">
-							<div class="card-body">
-								<div class="lc-block mb-4">
-									<div editable="rich">
-										<img src="./training/wedding album design.jpg " alt="" class="imgimg">
-                    <h3 class=" name mt-3"> Wedding Album Design</h3>
-
-                    <div class="read-more-container" id="readMoreContent3">
-  <p>
-     Master professional photo editing techniques for weddings, portraits, and commercial use. This course focuses on both creative and technical aspects of image enhancement, preparing you for work in photography studios,
-                                            events, and digital media.</p>
-                                        <div>
-                                            <ul>
-                                                <li class=" text-gray-600"> <span class="dot">●</span> Photo enhancement and restoration – RAW image processing, tonal adjustments, and color correction</li>
-                                                <li class="mt-1 text-gray-600"> <span class="dot">●</span> Portrait and product retouching – Skin smoothing, frequency separation, dodging & burning, and blemish removal</li>
-                                                <li class="mt-1 text-gray-600"> <span class="dot">●</span> Compositing and creative effects – Layering, masking, background replacement, and artistic effects</li>
-
-                                            </ul>
-
-                                            <p class="text-gray-600 mb-4 omt mt-2">
-                                                Design elegant, print-ready wedding albums and build a polished portfolio showcasing your retouching and design skills.
-                                            </p>
-                                        </div>
-</div>
-
-<button class="read-more-btn3" id="readMoreBtn3">Read More</button>
-                    
-									</div>
-                  <div class="mt-3 d-flex"><a href="#" class="btn btn-danger ">Enroll Now</a>  <a href="" class="mx-4 "><i class="fa-brands fa-whatsapp vk"></i></a> </div>
-								</div>
-								
-							</div>
-						</div>
-					</div>
-
-
-
-
-
-
-					<div class="swiper-slide lc-block">
-						<div class="cardd p-3">
-							<div class="card-body">
-								<div class="lc-block mb-4">
-									<div editable="rich">
-										<img src="./training/ui ux.jpg" alt="" class="imgimg">
-                    <h3 class=" name mt-3"> UI/UX Design</h3>
-
-                    <div class="read-more-container" id="readMoreContent4">
-  <p>
-    Learn the principles of user interface and user experience design to create intuitive, engaging digital products. This course blends creative thinking with technical skills to prepare you for roles in product and
-                                            interaction design.</p>
-                                        <div>
-                                            <ul>
-                                                <li class=" text-gray-600"> <span class="dot">●</span> UI Design – Layouts, visual hierarchy, typography, and design systems</li>
-                                                <li class="mt-1 text-gray-600"> <span class="dot">●</span> UX Design – Wireframing, user flows, journey mapping, and usability testing
-
-                                                </li>
-                                                <li class="mt-1 text-gray-600"> <span class="dot">●</span> Prototyping – Interactive mockups and responsive design for web and mobile</li>
-
-                                            </ul>
-
-                                            <p class="text-gray-600 mb-4 omt mt-2">
-                                                Build a professional portfolio with real-world projects and gain the skills to design functional, user-centered digital experiences.
-                                            </p>
-                                        </div>
-</div>
-
-<button class="read-more-btn4" id="readMoreBtn4">Read More</button>
-                    
-									</div>
-                  <div class="mt-3 d-flex"><a href="#" class="btn btn-danger ">Enroll Now</a>  <a href="" class="mx-4 "><i class="fa-brands fa-whatsapp vk"></i></a> </div>
-								</div>
-								
-							</div>
-						</div>
-					</div>
-
-
-
-
-
-
-					<div class="swiper-slide lc-block">
-						<div class="cardd p-3">
-							<div class="card-body">
-								<div class="lc-block mb-4">
-									<div editable="rich">
-										<img src="./training/motion graphics.jpg" alt="" class="imgimg">
-                    <h3 class=" name mt-3"> Motion Graphics</h3>
-
-                    <div class="read-more-container" id="readMoreContent5">
-  <p>
-    Learn to create dynamic animated visuals that bring brands, stories, and ideas to life. This course covers both creative concepts and technical skills to prepare you for roles in animation, advertising, and digital
-                                            media.
-                                        </p>
-                                        <div>
-                                            <ul>
-                                                <li class=" text-gray-600"> <span class="dot">●</span> 2D & 3D Motion Design – Animated text, logo reveals, infographics, and visual storytelling</li>
-                                                <li class="mt-1 text-gray-600"> <span class="dot">●</span> Compositing & Visual Effects – Layering, masking, transitions, and tracking
-
-
-
-                                                </li>
-                                                <li class="mt-1 text-gray-600"> <span class="dot">●</span> Animation Fundamentals – Keyframing, timing, easing, and motion principles</li>
-
-                                            </ul>
-
-                                            <p class="text-gray-600 mb-4 omt mt-2">
-                                                Work on real-world projects and build a portfolio that showcases your motion graphics expertise for social media, advertising, and entertainment industries.
-                                            </p>
-                                        </div>
-</div>
-
-<button class="read-more-btn5" id="readMoreBtn5">Read More</button>
-                    
-									</div>
-                  <div class="mt-3 d-flex"><a href="#" class="btn btn-danger ">Enroll Now</a>  <a href="" class="mx-4 "><i class="fa-brands fa-whatsapp vk"></i></a> </div>
-								</div>
-								
-							</div>
-						</div>
-					</div>
-
-
-
-
-
-
-
-				<div class="swiper-slide lc-block">
-						<div class="cardd p-3">
-							<div class="card-body">
-								<div class="lc-block mb-4">
-									<div editable="rich">
-										<img src="./training/printing media.png" alt="" class="imgimg">
-                    <h3 class=" name mt-3"> Printing Media Design</h3>
-
-                    <div class="read-more-container" id="readMoreContent6">
-  <p>
-    Master the art of designing for print with industry-standard techniques and specifications. This course teaches you how to create high-quality, print-ready designs for branding, marketing, and promotional materials.</p>
-                                        <div>
-                                            <ul>
-                                                <li class=" text-gray-600"> <span class="dot">●</span> Print Design Fundamentals – Layout composition, typography, color theory, and visual hierarchy</li>
-                                                <li class="mt-1 text-gray-600"> <span class="dot">●</span> Prepress & Production – CMYK color mode, bleed settings, DPI resolution, and file formats
-
-
-
-                                                </li>
-                                                <li class="mt-1 text-gray-600"> <span class="dot">●</span> Marketing & Branding Materials – Brochures, flyers, catalogues, business cards, posters, and packaging design</li>
-
-                                            </ul>
-
-                                            <p class="text-gray-600 mb-4 omt mt-2">
-                                                Gain the skills to deliver professional designs that look as impressive on paper as they do on screen, ensuring accuracy from concept to final print.
-                                            </p>
-                                        </div>
-</div>
-
-<button class="read-more-btn6" id="readMoreBtn6">Read More</button>
-                    
-									</div>
-                  <div class="mt-3 d-flex"><a href="#" class="btn btn-danger ">Enroll Now</a>  <a href="" class="mx-4 "><i class="fa-brands fa-whatsapp vk"></i></a> </div>
-								</div>
-								
-							</div>
-						</div>
-					</div>
-
-
-
-         
-				</div>
-				<!-- If we need pagination -->
-				<div class="swiper-pagination"></div>
-			</div>
-		</div>
-	</div>
-            </div>
-
-             
-        </div>
-        
-        
-    </div>
-</section>
-<!-- training us start -->
-
-
-
-<!-- services us start -->
-<section id="services" style="max-height:250vh; background:#ffffff;" class=" mt-5 pt-5 pb-5">
-    <div class="container pt-3 mt-2 mt-sm-5">
-        <div class="">
-            <h1 class="text-center title "> Our Services</h1>
-            <h4 class="text-center mt-4">Professional creative solutions for businesses and individuals</h4>
-        </div>
-
-        <div class="mt-5">
-             <h1 class="text-center title "> Student Success Stories</h1>
-
-             <!-- client -->
- <div class="container mt-5">
-    
-<div class="container py-6">
-	
-	
-	<div class="row align-items-center py-2">
-		<div class="position-relative">
-			
-			<!-- Slider main container -->
-			<div class="swiper mySwiper-RANDOMID position-relative">
-				<!-- Additional required wrapper -->
-				<div class="swiper-wrapper mb-5">
-					<!-- Slides -->
-					<div class="swiper-slide lc-block">
-						<div class="card p-3">
-							<div class="card-body">
-								<div class="lc-block mb-4">
-									<div editable="rich">
-										<p class="rfs-8 text-muted" >  As a beginner, I struggled to learn design software on my own, so I joined TECHNOCRATE one of the best decisions of my life. With expert one-on-one training from a friendly teacher with 13+ years of experience, I mastered graphic design tools and created brochures for multiple companies. The tuition is very affordable about half the usual rate and covers everything from brochures, flyers, logos, and photo/video editing to general design skills. If you’re passionate about designing, TECHNOCRATE is the perfect place to learn and excel.&nbsp; <br> <br></p>
-									</div>
-								</div>
-								<div class="lc-block d-inline-flex">
-									<div class="lc-block me-3" style="min-width:72px">
-										<img class="img-fluid rounded-circle " src="https://i.pravatar.cc/96?img=5" width="62" height="62">
-									</div>
-									<div class="lc-block">
-										<div editable="rich">
-											<p class="h5 name mt-2"> Vasanth Kumar</p>
-											<div class="star-rating " style="color: #ffc107; font-size: 1.2rem;">★★★★★</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="swiper-slide lc-block">
-						<div class="card p-3">
-							<div class="card-body">
-								<div class="lc-block mb-4">
-									<div editable="rich">
-										<p class="rfs-8 text-muted">If you are Searching for a Institute that teaches Graphic Design and Video Editing courses, then TECHNOCRATE should be your first preference. This is the best place to learn Graphic Design and Video editing courses in Coimbatore. They teach you how to create Corporate identity & Printing services and Edit Ad Film Videos, Cinematic Wedding Videos, Corporate Films etc..., You can Learn Di (Colour Correction), Special Effects, Title Animations, Visual Effects here. The faculty is an Experienced Professional. He teaches Students Very well. They also provide Placements Assistance. </p>
-									</div>
-								</div>
-								<div class="lc-block d-inline-flex">
-									<div class="lc-block me-3" style="min-width:48px">
-										<img class="img-fluid rounded-circle " src="https://i.pravatar.cc/96?img=7" width="64" height="64">
-									</div>
-									<div class="lc-block">
-										<div editable="rich">
-											<p class="h5 name mt-2">Kali Ranjith</p>
-											<div class="star-rating " style="color: #ffc107; font-size: 1.2rem;">★★★★★</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="swiper-slide lc-block">
-						<div class="card p-3">
-							<div class="card-body">
-								<div class="lc-block mb-4">
-									<div editable="rich">
-										<p class="rfs-8 text-muted">The training institute exceeded my expectations! The instructors were knowledgeable, patient, and made the material easy to understand. The facilities were top-notch and the hands-on approach to learning really helped solidify the concepts. I highly recommend this training center to anyone looking to further their education and improve their skills. <br> <br> <br> <br> <br> <br> <br></p>
-									</div>
-								</div>
-								<div class="lc-block d-inline-flex">
-									<div class="lc-block me-3" style="min-width:72px">
-										<img class="img-fluid rounded-circle " src="https://i.pravatar.cc/96?img=26" width="62" height="62">
-									</div>
-									<div class="lc-block">
-										<div editable="rich">
-											<p class="h5 name mt-2">Salman Farish </p>
-										<div class="star-rating " style="color: #ffc107; font-size: 1.2rem;">★★★★★</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="swiper-slide lc-block">
-						<div class="card p-3">
-							<div class="card-body">
-								<div class="lc-block mb-4">
-									<div editable="rich">
-										<p class="rfs-8 text-muted"> Right choice for people who wish to develop a career in design field. Got myself trained in image editing, typography, basics of animation, infographics and much more within the minimal time I had. Extremely flexible timings where I was able to manage my work life too. Friendly faculty who fed us with lots of tips and tricks to excel the course. Highly benefited out of my time here <br> <br> <br>  <br> <br><br> </p>
-									</div>
-								</div>
-								<div class="lc-block d-inline-flex">
-									<div class="lc-block me-3" style="min-width:72px">
-										<img class="img-fluid rounded-circle " src="https://i.pravatar.cc/96?img=3" width="62" height="62">
-									</div>
-									<div class="lc-block">
-										<div editable="rich">
-											<p class="h5 name mt-2">Vijila</p>
-											<div class="star-rating " style="color: #ffc107; font-size: 1.2rem;">★★★★★</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="swiper-slide lc-block">
-						<div class="card p-3">
-							<div class="card-body">
-								<div class="lc-block mb-4">
-									<div editable="rich">
-										<p class="rfs-8 text-muted"> TECHNOCRATE is unique in that it emphasises experiential learning. We had lots of chances to work on actual projects during the programme, which gave us the chance to put the theories we learnt to use in a real-world situation. This sharpened our creative impulses and strengthened our technical abilities, preparing us for the dynamic field of video editing. <br> <br> <br> <br> <br> <br>  <br></p>
-									</div>
-								</div>
-								<div class="lc-block d-inline-flex">
-									<div class="lc-block me-3" style="min-width:72px">
-										<img class="img-fluid rounded-circle " src="https://i.pravatar.cc/96?img=23" width="62" height="62">
-									</div>
-									<div class="lc-block">
-										<div editable="rich">
-                      <p class="h5 name mt-2">Ayyanar</p>
-                      <div class="star-rating " style="color: #ffc107; font-size: 1.2rem;">★★★★★</div>
-											
-											<!-- <p class="text-muted">UI/UX Graduate </p> -->
-                      
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="swiper-slide lc-block">
-						<div class="card p-3">
-							<div class="card-body">
-								<div class="lc-block mb-4">
-									<div editable="rich">
-										<p class="rfs-8 text-muted"> I recently completed the Brand Identity Design and Image Editing course at Technocrate Institute, and it was a great learning experience. The classes were one-on-one, which made it easy to ask questions and get personalized support throughout the course. The trainer was highly experienced and had vast knowledge in the field, which really showed in the way the concepts were taught. The sessions were very practical, and I got to work on real-time projects that helped me build confidence in my skills. <br> <br> <br> </p>
-									</div>
-								</div>
-								<div class="lc-block d-inline-flex">
-									<div class="lc-block me-3" style="min-width:72px">
-										<img class="img-fluid rounded-circle " src="https://i.pravatar.cc/96?img=6" width="62" height="62">
-									</div>
-									<div class="lc-block">
-										<div editable="rich">
-											<p class="h5 name mt-2">Johnsi Rani</p>
-											<div class="star-rating " style="color: #ffc107; font-size: 1.2rem;">★★★★★</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-
-
-          <div class="swiper-slide lc-block">
-						<div class="card p-3">
-							<div class="card-body">
-								<div class="lc-block mb-4">
-									<div editable="rich">
-										<p class="rfs-8 text-muted"> TECHNOCRATE stands as a beacon of creative education, nurturing artistic prowess within its students. Renowned for its comprehensive curriculum, industry savvy faculty, and state of the art facilities, it fosters a dynamic learning environment. Cutting edge software and hands on projects empower students to master design principles, typography, digital illustration, and user experience. Their Practical workshops and real-world assignments ensure graduates are job ready, fullyequipped with a versatile skill set. <br> <br> </p>
-									</div>
-								</div>
-								<div class="lc-block d-inline-flex">
-									<div class="lc-block me-3" style="min-width:72px">
-										<img class="img-fluid rounded-circle " src="https://i.pravatar.cc/96?img=3" width="62" height="62">
-									</div>
-									<div class="lc-block">
-										<div editable="rich">
-											<p class="h5 name">Jugalya</p>
-											<div class="star-rating mt-2" style="color: #ffc107; font-size: 1.2rem;">★★★★★</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- If we need pagination -->
-				<div class="swiper-pagination"></div>
-			</div>
-		</div>
-	</div>
-</div>
-  </div>
-    <script>
-	function initializeSwiperRANDOMID(){
-	 	// Launch SwiperJS  
-		const swiper = new Swiper(".mySwiper-RANDOMID", {
-				slidesPerView: 1,
-				grabCursor: true,
-				spaceBetween: 30,
-				pagination: {
-					el: ".swiper-pagination",
-					clickable: true,
-				},
-				breakpoints: {
-				640: {
-					slidesPerView: 1,
-					spaceBetween: 20,
-				},
-				768: {
-					slidesPerView: 2,
-					spaceBetween: 30,
-				},
-				1024: {
-					slidesPerView: 3,
-					spaceBetween: 30,
-				},
-			},
-		});
-	}
- </script>
-<!-- client -->
-             
-        </div>
-    </div>
-</section>
-<!-- services us end -->
-
-
-<script>
-const readMoreBtn = document.getElementById("readMoreBtn");
-const readMoreContent = document.getElementById("readMoreContent");
-
-readMoreBtn.addEventListener("click", function() {
-  readMoreContent.classList.toggle("expanded");
-
-  if (readMoreContent.classList.contains("expanded")) {
-    readMoreBtn.textContent = "Read Less";
-  } else {
-    readMoreBtn.textContent = "Read More";
-  }
-});
-
-
-
-
-
-const readMoreBtn2 = document.getElementById("readMoreBtn2");
-const readMoreContent2 = document.getElementById("readMoreContent2");
-
-readMoreBtn2.addEventListener("click", function() {
-  readMoreContent2.classList.toggle("expanded");
-
-  if (readMoreContent2.classList.contains("expanded")) {
-    readMoreBtn2.textContent = "Read Less";
-  } else {
-    readMoreBtn2.textContent = "Read More";
-  }
-});
-
-
-
-
-
-const readMoreBtn3 = document.getElementById("readMoreBtn3");
-const readMoreContent3 = document.getElementById("readMoreContent3");
-
-readMoreBtn3.addEventListener("click", function() {
-  readMoreContent3.classList.toggle("expanded");
-
-  if (readMoreContent3.classList.contains("expanded")) {
-    readMoreBtn3.textContent = "Read Less";
-  } else {
-    readMoreBtn3.textContent = "Read More";
-  }
-});
-
-
-
-
-
-
-
-
-const readMoreBtn4 = document.getElementById("readMoreBtn4");
-const readMoreContent4 = document.getElementById("readMoreContent4");
-
-readMoreBtn4.addEventListener("click", function() {
-  readMoreContent4.classList.toggle("expanded");
-
-  if (readMoreContent4.classList.contains("expanded")) {
-    readMoreBtn4.textContent = "Read Less";
-  } else {
-    readMoreBtn4.textContent = "Read More";
-  }
-});
-
-
-
-
-const readMoreBtn5 = document.getElementById("readMoreBtn5");
-const readMoreContent5 = document.getElementById("readMoreContent5");
-
-readMoreBtn5.addEventListener("click", function() {
-  readMoreContent5.classList.toggle("expanded");
-
-  if (readMoreContent5.classList.contains("expanded")) {
-    readMoreBtn5.textContent = "Read Less";
-  } else {
-    readMoreBtn5.textContent = "Read More";
-  }
-});
-
-
-
-
-
-const readMoreBtn6 = document.getElementById("readMoreBtn6");
-const readMoreContent6 = document.getElementById("readMoreContent6");
-
-readMoreBtn6.addEventListener("click", function() {
-  readMoreContent6.classList.toggle("expanded");
-
-  if (readMoreContent6.classList.contains("expanded")) {
-    readMoreBtn6.textContent = "Read Less";
-  } else {
-    readMoreBtn6.textContent = "Read More";
-  }
-});
-</script>
-
-<!-- cotact us start -->
-
-<section id="contact" style="max-height:200dvh; background:#dee2e6;" class=" mt-5 pt-5 pb-5">
-    <div class="container pt-3 mt-2 mt-sm-5">
-        <div class="" id="vasanth">
-            <h1 class="text-center title " > Contact Us</h1>
-            <h4 class="text-center mt-4">Get in touch with our team to learn more about our services and <br>training programs</h4>
-
-            <div class="row mt-5">
-                <div class="col-lg-6">
-                    <div class="sha">
-                        
-                         <div class="mb-8">
-                                    <h3 class="sub-title mb-3">Get In Touch</h3>
-                                    <p class="pp">Have questions about our services or training programs? <br> Our team is here to help you.</p>
-
-                                    <div class="space-y-4">
-                                        <div class="flex items-start">
-                                            <div class="w-10 h-10 flex items-center justify-center bg-blue-100 rounded-full mr-3">
-                                                <i class="ri-map-pin-line text-primary"></i>
-                                            </div>
-                                            <div>
-                                                <h5 class="h5">Our Location</h5>
-                                                <p class="pp"> <b>TECHNOCRATE,</b> <br> 4 A2, NGN St, <br> New Siddhapudur, Coimbatore, <br> Tamil Nadu - 641 044</p>
-                                            </div>
-                                        </div>
-
-                                        <div class="flex items-start">
-                                            <div class="w-10 h-10 flex items-center justify-center bg-blue-100 rounded-full mr-3">
-                                                <i class="ri-phone-line text-primary"></i>
-                                            </div>
-                                            <div>
-                                                <h5 class="h5">Phone</h5>
-                                                <p class="pp"> <a href="tel:+919092902492">+91 90929 02492</a></p>
-                                            </div>
-                                        </div>
-
-                                        <div class="flex items-start">
-                                            <div class="w-10 h-10 flex items-center justify-center bg-blue-100 rounded-full mr-3">
-                                                <i class="ri-mail-line text-primary"></i>
-                                            </div>
-                                            <div>
-                                                <h5 class="h5">Email</h5>
-                                                <p class="pp">info@technocrate.com</p>
-                                            </div>
-                                        </div>
-
-                                        <div class="flex items-start">
-                                            <div class="w-10 h-10 flex items-center justify-center bg-blue-100 rounded-full mr-3">
-                                                <i class="ri-time-line text-primary"></i>
-                                            </div>
-                                            <div>
-                                                <h5 class="h5">Office Hours</h5>
-                                                <p class="pp">Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 2:00 PM</p>
                                             </div>
                                         </div>
                                     </div>
+
+
+
+
+
+
+
+                                    <div class="swiper-slide lc-block">
+                                        <div class="cardd p-3">
+                                            <div class="card-body">
+                                                <div class="lc-block mb-4">
+                                                    <div editable="rich">
+                                                        <img src="./training/video editing.jpg" alt="" class="imgimg">
+                                                        <h3 class=" name mt-3"> Video Editing</h3>
+
+                                                        <div class="read-more-container" id="readMoreContent2">
+                                                            <p>
+                                                                Learn professional video editing techniques and craft impactful visual stories for various digital platforms. This hands-on course prepares you for creative roles in media and content production.</p>
+                                                            <div>
+                                                                <ul>
+                                                                    <li class=" text-gray-600"> <span class="dot">●</span> Video editing fundamentals, timeline editing, and storytelling techniques</li>
+                                                                    <li class="mt-1 text-gray-600"> <span class="dot">●</span> Color grading, transitions, and DI (Digital Intermediate) workflows</li>
+                                                                    <li class="mt-1 text-gray-600"> <span class="dot">●</span> Audio editing, syncing, and basic motion graphics</li>
+
+                                                                </ul>
+
+                                                                <p class="text-gray-600 mb-4 omt mt-2">Build a strong showreel and develop industry-ready skills for careers in film, advertising, content creation, and digital media.</p>
+                                                            </div>
+                                                        </div>
+
+                                                        <button class="read-more-btn2" id="readMoreBtn2">Read More</button>
+
+                                                    </div>
+                                                    <div class="mt-3 d-flex"><a href="#" class="btn btn-danger ">Enroll Now</a> <a href="" class="mx-4 "><i class="fa-brands fa-whatsapp vk"></i></a> </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+
+                                    <div class="swiper-slide lc-block">
+                                        <div class="cardd p-3">
+                                            <div class="card-body">
+                                                <div class="lc-block mb-4">
+                                                    <div editable="rich">
+                                                        <img src="./training/wedding album design.jpg " alt="" class="imgimg">
+                                                        <h3 class=" name mt-3"> Wedding Album Design</h3>
+
+                                                        <div class="read-more-container" id="readMoreContent3">
+                                                            <p>
+                                                                Master professional photo editing techniques for weddings, portraits, and commercial use. This course focuses on both creative and technical aspects of image enhancement, preparing you for work in photography studios, events, and digital media.</p>
+                                                            <div>
+                                                                <ul>
+                                                                    <li class=" text-gray-600"> <span class="dot">●</span> Photo enhancement and restoration – RAW image processing, tonal adjustments, and color correction</li>
+                                                                    <li class="mt-1 text-gray-600"> <span class="dot">●</span> Portrait and product retouching – Skin smoothing, frequency separation, dodging & burning, and blemish removal</li>
+                                                                    <li class="mt-1 text-gray-600"> <span class="dot">●</span> Compositing and creative effects – Layering, masking, background replacement, and artistic effects</li>
+
+                                                                </ul>
+
+                                                                <p class="text-gray-600 mb-4 omt mt-2">
+                                                                    Design elegant, print-ready wedding albums and build a polished portfolio showcasing your retouching and design skills.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+
+                                                        <button class="read-more-btn3" id="readMoreBtn3">Read More</button>
+
+                                                    </div>
+                                                    <div class="mt-3 d-flex"><a href="#" class="btn btn-danger ">Enroll Now</a> <a href="" class="mx-4 "><i class="fa-brands fa-whatsapp vk"></i></a> </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+                                    <div class="swiper-slide lc-block">
+                                        <div class="cardd p-3">
+                                            <div class="card-body">
+                                                <div class="lc-block mb-4">
+                                                    <div editable="rich">
+                                                        <img src="./training/ui ux.jpg" alt="" class="imgimg">
+                                                        <h3 class=" name mt-3"> UI/UX Design</h3>
+
+                                                        <div class="read-more-container" id="readMoreContent4">
+                                                            <p>
+                                                                Learn the principles of user interface and user experience design to create intuitive, engaging digital products. This course blends creative thinking with technical skills to prepare you for roles in product and interaction design.</p>
+                                                            <div>
+                                                                <ul>
+                                                                    <li class=" text-gray-600"> <span class="dot">●</span> UI Design – Layouts, visual hierarchy, typography, and design systems</li>
+                                                                    <li class="mt-1 text-gray-600"> <span class="dot">●</span> UX Design – Wireframing, user flows, journey mapping, and usability testing
+
+                                                                    </li>
+                                                                    <li class="mt-1 text-gray-600"> <span class="dot">●</span> Prototyping – Interactive mockups and responsive design for web and mobile</li>
+
+                                                                </ul>
+
+                                                                <p class="text-gray-600 mb-4 omt mt-2">
+                                                                    Build a professional portfolio with real-world projects and gain the skills to design functional, user-centered digital experiences.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+
+                                                        <button class="read-more-btn4" id="readMoreBtn4">Read More</button>
+
+                                                    </div>
+                                                    <div class="mt-3 d-flex"><a href="#" class="btn btn-danger ">Enroll Now</a> <a href="" class="mx-4 "><i class="fa-brands fa-whatsapp vk"></i></a> </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+                                    <div class="swiper-slide lc-block">
+                                        <div class="cardd p-3">
+                                            <div class="card-body">
+                                                <div class="lc-block mb-4">
+                                                    <div editable="rich">
+                                                        <img src="./training/motion graphics.jpg" alt="" class="imgimg">
+                                                        <h3 class=" name mt-3"> Motion Graphics</h3>
+
+                                                        <div class="read-more-container" id="readMoreContent5">
+                                                            <p>
+                                                                Learn to create dynamic animated visuals that bring brands, stories, and ideas to life. This course covers both creative concepts and technical skills to prepare you for roles in animation, advertising, and digital media.
+                                                            </p>
+                                                            <div>
+                                                                <ul>
+                                                                    <li class=" text-gray-600"> <span class="dot">●</span> 2D & 3D Motion Design – Animated text, logo reveals, infographics, and visual storytelling</li>
+                                                                    <li class="mt-1 text-gray-600"> <span class="dot">●</span> Compositing & Visual Effects – Layering, masking, transitions, and tracking
+
+
+
+                                                                    </li>
+                                                                    <li class="mt-1 text-gray-600"> <span class="dot">●</span> Animation Fundamentals – Keyframing, timing, easing, and motion principles</li>
+
+                                                                </ul>
+
+                                                                <p class="text-gray-600 mb-4 omt mt-2">
+                                                                    Work on real-world projects and build a portfolio that showcases your motion graphics expertise for social media, advertising, and entertainment industries.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+
+                                                        <button class="read-more-btn5" id="readMoreBtn5">Read More</button>
+
+                                                    </div>
+                                                    <div class="mt-3 d-flex"><a href="#" class="btn btn-danger ">Enroll Now</a> <a href="" class="mx-4 "><i class="fa-brands fa-whatsapp vk"></i></a> </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+
+                                    <div class="swiper-slide lc-block">
+                                        <div class="cardd p-3">
+                                            <div class="card-body">
+                                                <div class="lc-block mb-4">
+                                                    <div editable="rich">
+                                                        <img src="./training/printing media.png" alt="" class="imgimg">
+                                                        <h3 class=" name mt-3"> Printing Media Design</h3>
+
+                                                        <div class="read-more-container" id="readMoreContent6">
+                                                            <p>
+                                                                Master the art of designing for print with industry-standard techniques and specifications. This course teaches you how to create high-quality, print-ready designs for branding, marketing, and promotional materials.</p>
+                                                            <div>
+                                                                <ul>
+                                                                    <li class=" text-gray-600"> <span class="dot">●</span> Print Design Fundamentals – Layout composition, typography, color theory, and visual hierarchy</li>
+                                                                    <li class="mt-1 text-gray-600"> <span class="dot">●</span> Prepress & Production – CMYK color mode, bleed settings, DPI resolution, and file formats
+
+
+
+                                                                    </li>
+                                                                    <li class="mt-1 text-gray-600"> <span class="dot">●</span> Marketing & Branding Materials – Brochures, flyers, catalogues, business cards, posters, and packaging design</li>
+
+                                                                </ul>
+
+                                                                <p class="text-gray-600 mb-4 omt mt-2">
+                                                                    Gain the skills to deliver professional designs that look as impressive on paper as they do on screen, ensuring accuracy from concept to final print.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+
+                                                        <button class="read-more-btn6" id="readMoreBtn6">Read More</button>
+
+                                                    </div>
+                                                    <div class="mt-3 d-flex"><a href="#" class="btn btn-danger ">Enroll Now</a> <a href="" class="mx-4 "><i class="fa-brands fa-whatsapp vk"></i></a> </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
                                 </div>
+                                <!-- If we need pagination -->
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
 
-                 <div class="col-lg-6">
-                    <div class="sha mt-4 mt-sm-0">
-                        
-                         <section class="">
-  <div class="container">
-    <div class="row ">
+            </div>
 
-      <!-- Left: Map -->
-      <div class="">
-        <h3 class="sub-title mb-3">Our Location</h3>
-        <iframe 
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3910.240453674872!2d76.96727297461952!3d11.018340854742064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859ddfb7d3f0d%3A0xf7e5c2b91a05b703!2sTechnocrate!5e0!3m2!1sen!2sin!4v1693478653025!5m2!1sen!2sin" 
-  width="100%" 
-  height="320" 
-  style="border:0;" 
-  allowfullscreen="" 
-  loading="lazy" 
-  referrerpolicy="no-referrer-when-downgrade">
-</iframe>
-      </div>
 
-      <!-- Right: Social Links -->
-      <div class="">
-        <h3 class="sub-title mt-3">Connect With Us</h3>
-        <div class="d-flex gap-3 mt-3">
-          <a href="#" class="btn btn-light roundedf-circle p-3"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="btn btn-light roundfed-circle p-3"><i class="fab fa-twitter"></i></a>
-          <a href="#" class="btn btn-light roundfed-circle p-3"><i class="fab fa-instagram"></i></a>
-          <a href="#" class="btn btn-light roundfed-circle p-3"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#" class="btn btn-light roundfed-circle p-3"><i class="fab fa-youtube"></i></a>
         </div>
-      </div>
+    </section>
+    <!-- training us start -->
 
-    </div>
-  </div>
-</section>
 
+
+    <!-- services us start -->
+    <section id="services" style=" background:#ffffff;" class="serr mt-5 pt-5 pb-5">
+        <div class="container pt-3 mt-2 mt-sm-5">
+            <div class="">
+                <h1 class="text-center title "> Our Services</h1>
+                <h4 class="text-center mt-4">Professional creative solutions for businesses and individuals</h4>
+                <div class="pt-5 pb-5">
+                    <div class="row align-items-center py-2">
+                        <div class="position-relative">
+
+                            <!-- Slider main container -->
+                            <div class="swiper mySwiper-RANDOMID position-relative">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper mb-5">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide lc-block">
+                                        <div class="cardd p-3">
+                                            <div class="card-body">
+                                                <div class="lc-block mb-4">
+                                                    <div editable="rich">
+                                                        <img src="./training/graphic design.jpg" alt="" class="imgimg">
+                                                        <h3 class=" name mt-3"> Graphic Design</h3>
+
+                                                        <div class="read-more-container" id="readMoreContent7">
+                                                            <p>
+                                                                Professional print and digital design services to build strong brand presence and visual impact. We offer:</p>
+                                                            <div>
+                                                                <ul>
+                                                                    <li class=" text-gray-600"> <span class="dot">●</span> Brand Identity Design – Logos, brand guidelines, typography, and color systems.
+
+                                                                    </li>
+                                                                    <li class="mt-1 text-gray-600"> <span class="dot">●</span> Print & Marketing Materials – Brochures, catalogues, business cards, packaging, and more.</li>
+                                                                    <li class="mt-1 text-gray-600"> <span class="dot">●</span> Digital & Social Media Assets – Graphics for social media, web banners, and email campaigns.</li>
+
+                                                                </ul>
+
+                                                                <p class="text-gray-600 mb-4 omt mt-2">Whether you're starting fresh or rebranding, Technocrate delivers creative, high-quality designs that make your brand stand out.</p>
+                                                            </div>
+                                                        </div>
+
+                                                        <button class="read-more-btn7" id="readMoreBtn7">Read More</button>
+
+                                                    </div>
+                                                    <div class="mt-3 d-flex"><a href="#" class="btn btn-danger ">Enroll Now</a> <a href="" class="mx-4 "><i class="fa-brands fa-whatsapp vk"></i></a> </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+
+                                    <div class="swiper-slide lc-block">
+                                        <div class="cardd p-3">
+                                            <div class="card-body">
+                                                <div class="lc-block mb-4">
+                                                    <div editable="rich">
+                                                        <img src="./training/video editing.jpg" alt="" class="imgimg">
+                                                        <h3 class=" name mt-3"> Audio & Video Editing</h3>
+
+                                                        <div class="read-more-container" id="readMoreContent8">
+                                                            <p>
+                                                                High-quality video editing and production to create engaging content for brands and businesses. We provide:</p>
+                                                            <div>
+                                                                <ul>
+                                                                    <li class=" text-gray-600"> <span class="dot">●</span> Event Videography & Editing – Highlights, promos, and recap videos.
+
+                                                                    </li>
+                                                                    <li class="mt-1 text-gray-600"> <span class="dot">●</span> Social Media Content – Reels, short videos, and platform-optimized edits.</li>
+                                                                    <li class="mt-1 text-gray-600"> <span class="dot">●</span> Corporate & Marketing Videos – Business promos, product demos, and presentations.
+
+                                                                    </li>
+
+                                                                </ul>
+
+                                                                <p class="text-gray-600 mb-4 omt mt-2">Technocrate helps you tell your story with polished, impactful visuals that connect with your audience.</p>
+                                                            </div>
+                                                        </div>
+
+                                                        <button class="read-more-btn8" id="readMoreBtn8">Read More</button>
+
+                                                    </div>
+                                                    <div class="mt-3 d-flex"><a href="#" class="btn btn-danger ">Enroll Now</a> <a href="" class="mx-4 "><i class="fa-brands fa-whatsapp vk"></i></a> </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+
+                                    <div class="swiper-slide lc-block">
+                                        <div class="cardd p-3">
+                                            <div class="card-body">
+                                                <div class="lc-block mb-4">
+                                                    <div editable="rich">
+                                                        <img src="./training/wedding album design.jpg " alt="" class="imgimg">
+                                                        <h3 class=" name mt-3"> UI/UX Design</h3>
+
+                                                        <div class="read-more-container" id="readMoreContent9">
+                                                            <p>
+                                                                User-focused interface and experience design to enhance digital products and brand interaction. Our services include:</p>
+                                                            <div>
+                                                                <ul>
+                                                                    <li class=" text-gray-600"> <span class="dot">●</span> UI Design – Intuitive interfaces for websites, apps, and dashboards.
+
+                                                                    </li>
+                                                                    <li class="mt-1 text-gray-600"> <span class="dot">●</span> UX Design – Wireframes, prototypes, and user journey optimization.</li>
+                                                                    <li class="mt-1 text-gray-600"> <span class="dot">●</span> Responsive Design – Seamless user experience across all devices.</li>
+
+                                                                </ul>
+
+                                                                <p class="text-gray-600 mb-4 omt mt-2">
+                                                                    At Technocrate, we design digital experiences that are both visually engaging and highly functional.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+
+                                                        <button class="read-more-btn9" id="readMoreBtn9">Read More</button>
+
+                                                    </div>
+                                                    <div class="mt-3 d-flex"><a href="#" class="btn btn-danger ">Enroll Now</a> <a href="" class="mx-4 "><i class="fa-brands fa-whatsapp vk"></i></a> </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+                                    <div class="swiper-slide lc-block">
+                                        <div class="cardd p-3">
+                                            <div class="card-body">
+                                                <div class="lc-block mb-4">
+                                                    <div editable="rich">
+                                                        <img src="./training/ui ux.jpg" alt="" class="imgimg">
+                                                        <h3 class=" name mt-3"> Motion Graphics</h3>
+
+                                                        <div class="read-more-container" id="readMoreContent10">
+                                                            <p>
+                                                                Engaging animated visuals to enhance storytelling, branding, and digital content. We offer</p>
+                                                            <div>
+                                                                <ul>
+                                                                    <li class=" text-gray-600"> <span class="dot">●</span> Explainers & Logo Animations – Intros, brand reveals, and visual storytelling.</li>
+                                                                    <li class="mt-1 text-gray-600"> <span class="dot">●</span> Infographic & Data Animations – Animated charts, stats, and visual data.
+
+                                                                    </li>
+                                                                    <li class="mt-1 text-gray-600"> <span class="dot">●</span> Social Media & Marketing Content – Eye-catching motion for ads, reels, and campaigns.</li>
+
+                                                                </ul>
+
+                                                                <p class="text-gray-600 mb-4 omt mt-2">
+
+                                                                    Technocrate brings your ideas to life with motion that captures attention and delivers impact.
+
+                                                                </p>
+                                                            </div>
+                                                        </div>
+
+                                                        <button class="read-more-btn10" id="readMoreBtn10">Read More</button>
+
+                                                    </div>
+                                                    <div class="mt-3 d-flex"><a href="#" class="btn btn-danger ">Enroll Now</a> <a href="" class="mx-4 "><i class="fa-brands fa-whatsapp vk"></i></a> </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+                                    <div class="swiper-slide lc-block">
+                                        <div class="cardd p-3">
+                                            <div class="card-body">
+                                                <div class="lc-block mb-4">
+                                                    <div editable="rich">
+                                                        <img src="./training/motion graphics.jpg" alt="" class="imgimg">
+                                                        <h3 class=" name mt-3"> Wedding Album Editing</h3>
+
+                                                        <div class="read-more-container" id="readMoreContent11">
+                                                            <p>
+                                                                Professional photo retouching and album design to preserve your special moments beautifully. Our services include:
+                                                            </p>
+                                                            <div>
+                                                                <ul>
+                                                                    <li class=" text-gray-600"> <span class="dot">●</span> Photo Enhancement – Color correction, skin retouching, and background cleanup.</li>
+                                                                    <li class="mt-1 text-gray-600"> <span class="dot">●</span> Wedding Album Design – Elegant layouts, storytelling sequences, and print-ready albums.
+
+
+                                                                    </li>
+                                                                    <li class="mt-1 text-gray-600"> <span class="dot">●</span>Candid & Traditional Edits – Stylized edits for both modern and classic photography styles.</li>
+
+                                                                </ul>
+
+                                                                <p class="text-gray-600 mb-4 omt mt-2">
+                                                                    Technocrate transforms your photos into timeless memories with polished, high-quality edits.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+
+                                                        <button class="read-more-btn11" id="readMoreBtn11">Read More</button>
+
+                                                    </div>
+                                                    <div class="mt-3 d-flex"><a href="#" class="btn btn-danger ">Enroll Now</a> <a href="" class="mx-4 "><i class="fa-brands fa-whatsapp vk"></i></a> </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+                                <!-- If we need pagination -->
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="mt-5">
+                <h1 class="text-center title "> Student Success Stories</h1>
+
+                <!-- client -->
+                <div class="container mt-5">
+
+                    <div class="container py-6">
+
+
+                        <div class="row align-items-center py-2">
+                            <div class="position-relative">
+
+                                <!-- Slider main container -->
+                                <div class="swiper mySwiper-RANDOMID position-relative">
+                                    <!-- Additional required wrapper -->
+                                    <div class="swiper-wrapper mb-5">
+                                        <!-- Slides -->
+                                        <div class="swiper-slide lc-block">
+                                            <div class="card p-3">
+                                                <div class="card-body">
+                                                    <div class="lc-block mb-4">
+                                                        <div editable="rich">
+                                                            <p class="rfs-8 text-muted"> As a beginner, I struggled to learn design software on my own, so I joined TECHNOCRATE one of the best decisions of my life. With expert one-on-one training from a friendly teacher with 13+ years
+                                                                of experience, I mastered graphic design tools and created brochures for multiple companies. The tuition is very affordable about half the usual rate and covers everything from brochures,
+                                                                flyers, logos, and photo/video editing to general design skills. If you’re passionate about designing, TECHNOCRATE is the perfect place to learn and excel.&nbsp; <br> <br></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="lc-block d-inline-flex">
+                                                        <div class="lc-block me-3" style="min-width:72px">
+                                                            <img class="img-fluid rounded-circle " src="https://i.pravatar.cc/96?img=5" width="62" height="62">
+                                                        </div>
+                                                        <div class="lc-block">
+                                                            <div editable="rich">
+                                                                <p class="h5 name mt-2"> Vasanth Kumar</p>
+                                                                <div class="star-rating " style="color: #ffc107; font-size: 1.2rem;">★★★★★</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide lc-block">
+                                            <div class="card p-3">
+                                                <div class="card-body">
+                                                    <div class="lc-block mb-4">
+                                                        <div editable="rich">
+                                                            <p class="rfs-8 text-muted">If you are Searching for a Institute that teaches Graphic Design and Video Editing courses, then TECHNOCRATE should be your first preference. This is the best place to learn Graphic Design and
+                                                                Video editing courses in Coimbatore. They teach you how to create Corporate identity & Printing services and Edit Ad Film Videos, Cinematic Wedding Videos, Corporate Films etc..., You can
+                                                                Learn Di (Colour Correction), Special Effects, Title Animations, Visual Effects here. The faculty is an Experienced Professional. He teaches Students Very well. They also provide Placements
+                                                                Assistance. </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="lc-block d-inline-flex">
+                                                        <div class="lc-block me-3" style="min-width:48px">
+                                                            <img class="img-fluid rounded-circle " src="https://i.pravatar.cc/96?img=7" width="64" height="64">
+                                                        </div>
+                                                        <div class="lc-block">
+                                                            <div editable="rich">
+                                                                <p class="h5 name mt-2">Kali Ranjith</p>
+                                                                <div class="star-rating " style="color: #ffc107; font-size: 1.2rem;">★★★★★</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide lc-block">
+                                            <div class="card p-3">
+                                                <div class="card-body">
+                                                    <div class="lc-block mb-4">
+                                                        <div editable="rich">
+                                                            <p class="rfs-8 text-muted">The training institute exceeded my expectations! The instructors were knowledgeable, patient, and made the material easy to understand. The facilities were top-notch and the hands-on approach
+                                                                to learning really helped solidify the concepts. I highly recommend this training center to anyone looking to further their education and improve their skills. <br> <br> <br> <br> <br> <br>                                                                <br></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="lc-block d-inline-flex">
+                                                        <div class="lc-block me-3" style="min-width:72px">
+                                                            <img class="img-fluid rounded-circle " src="https://i.pravatar.cc/96?img=26" width="62" height="62">
+                                                        </div>
+                                                        <div class="lc-block">
+                                                            <div editable="rich">
+                                                                <p class="h5 name mt-2">Salman Farish </p>
+                                                                <div class="star-rating " style="color: #ffc107; font-size: 1.2rem;">★★★★★</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide lc-block">
+                                            <div class="card p-3">
+                                                <div class="card-body">
+                                                    <div class="lc-block mb-4">
+                                                        <div editable="rich">
+                                                            <p class="rfs-8 text-muted"> Right choice for people who wish to develop a career in design field. Got myself trained in image editing, typography, basics of animation, infographics and much more within the minimal time
+                                                                I had. Extremely flexible timings where I was able to manage my work life too. Friendly faculty who fed us with lots of tips and tricks to excel the course. Highly benefited out of my time
+                                                                here <br> <br> <br> <br> <br><br> </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="lc-block d-inline-flex">
+                                                        <div class="lc-block me-3" style="min-width:72px">
+                                                            <img class="img-fluid rounded-circle " src="https://i.pravatar.cc/96?img=3" width="62" height="62">
+                                                        </div>
+                                                        <div class="lc-block">
+                                                            <div editable="rich">
+                                                                <p class="h5 name mt-2">Vijila</p>
+                                                                <div class="star-rating " style="color: #ffc107; font-size: 1.2rem;">★★★★★</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide lc-block">
+                                            <div class="card p-3">
+                                                <div class="card-body">
+                                                    <div class="lc-block mb-4">
+                                                        <div editable="rich">
+                                                            <p class="rfs-8 text-muted"> TECHNOCRATE is unique in that it emphasises experiential learning. We had lots of chances to work on actual projects during the programme, which gave us the chance to put the theories we learnt
+                                                                to use in a real-world situation. This sharpened our creative impulses and strengthened our technical abilities, preparing us for the dynamic field of video editing. <br> <br> <br> <br> <br>                                                                <br> <br></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="lc-block d-inline-flex">
+                                                        <div class="lc-block me-3" style="min-width:72px">
+                                                            <img class="img-fluid rounded-circle " src="https://i.pravatar.cc/96?img=23" width="62" height="62">
+                                                        </div>
+                                                        <div class="lc-block">
+                                                            <div editable="rich">
+                                                                <p class="h5 name mt-2">Ayyanar</p>
+                                                                <div class="star-rating " style="color: #ffc107; font-size: 1.2rem;">★★★★★</div>
+
+                                                                <!-- <p class="text-muted">UI/UX Graduate </p> -->
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide lc-block">
+                                            <div class="card p-3">
+                                                <div class="card-body">
+                                                    <div class="lc-block mb-4">
+                                                        <div editable="rich">
+                                                            <p class="rfs-8 text-muted"> I recently completed the Brand Identity Design and Image Editing course at Technocrate Institute, and it was a great learning experience. The classes were one-on-one, which made it easy to ask
+                                                                questions and get personalized support throughout the course. The trainer was highly experienced and had vast knowledge in the field, which really showed in the way the concepts were taught.
+                                                                The sessions were very practical, and I got to work on real-time projects that helped me build confidence in my skills. <br> <br> <br> </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="lc-block d-inline-flex">
+                                                        <div class="lc-block me-3" style="min-width:72px">
+                                                            <img class="img-fluid rounded-circle " src="https://i.pravatar.cc/96?img=6" width="62" height="62">
+                                                        </div>
+                                                        <div class="lc-block">
+                                                            <div editable="rich">
+                                                                <p class="h5 name mt-2">Johnsi Rani</p>
+                                                                <div class="star-rating " style="color: #ffc107; font-size: 1.2rem;">★★★★★</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="swiper-slide lc-block">
+                                            <div class="card p-3">
+                                                <div class="card-body">
+                                                    <div class="lc-block mb-4">
+                                                        <div editable="rich">
+                                                            <p class="rfs-8 text-muted"> TECHNOCRATE stands as a beacon of creative education, nurturing artistic prowess within its students. Renowned for its comprehensive curriculum, industry savvy faculty, and state of the art facilities,
+                                                                it fosters a dynamic learning environment. Cutting edge software and hands on projects empower students to master design principles, typography, digital illustration, and user experience.
+                                                                Their Practical workshops and real-world assignments ensure graduates are job ready, fullyequipped with a versatile skill set. <br> <br> </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="lc-block d-inline-flex">
+                                                        <div class="lc-block me-3" style="min-width:72px">
+                                                            <img class="img-fluid rounded-circle " src="https://i.pravatar.cc/96?img=3" width="62" height="62">
+                                                        </div>
+                                                        <div class="lc-block">
+                                                            <div editable="rich">
+                                                                <p class="h5 name">Jugalya</p>
+                                                                <div class="star-rating mt-2" style="color: #ffc107; font-size: 1.2rem;">★★★★★</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- If we need pagination -->
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    function initializeSwiperRANDOMID() {
+                        // Launch SwiperJS  
+                        const swiper = new Swiper(".mySwiper-RANDOMID", {
+                            slidesPerView: 1,
+                            grabCursor: true,
+                            spaceBetween: 30,
+                            pagination: {
+                                el: ".swiper-pagination",
+                                clickable: true,
+                            },
+                            breakpoints: {
+                                640: {
+                                    slidesPerView: 1,
+                                    spaceBetween: 20,
+                                },
+                                768: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 30,
+                                },
+                                1024: {
+                                    slidesPerView: 3,
+                                    spaceBetween: 30,
+                                },
+                            },
+                        });
+                    }
+                </script>
+                <!-- client -->
+
+            </div>
+        </div>
+    </section>
+    <!-- services us end -->
+
+
+    <script>
+        const readMoreBtn = document.getElementById("readMoreBtn");
+        const readMoreContent = document.getElementById("readMoreContent");
+
+        readMoreBtn.addEventListener("click", function() {
+            readMoreContent.classList.toggle("expanded");
+
+            if (readMoreContent.classList.contains("expanded")) {
+                readMoreBtn.textContent = "Read Less";
+            } else {
+                readMoreBtn.textContent = "Read More";
+            }
+        });
+
+
+
+
+
+        const readMoreBtn2 = document.getElementById("readMoreBtn2");
+        const readMoreContent2 = document.getElementById("readMoreContent2");
+
+        readMoreBtn2.addEventListener("click", function() {
+            readMoreContent2.classList.toggle("expanded");
+
+            if (readMoreContent2.classList.contains("expanded")) {
+                readMoreBtn2.textContent = "Read Less";
+            } else {
+                readMoreBtn2.textContent = "Read More";
+            }
+        });
+
+
+
+
+
+        const readMoreBtn3 = document.getElementById("readMoreBtn3");
+        const readMoreContent3 = document.getElementById("readMoreContent3");
+
+        readMoreBtn3.addEventListener("click", function() {
+            readMoreContent3.classList.toggle("expanded");
+
+            if (readMoreContent3.classList.contains("expanded")) {
+                readMoreBtn3.textContent = "Read Less";
+            } else {
+                readMoreBtn3.textContent = "Read More";
+            }
+        });
+
+
+
+
+
+
+
+
+        const readMoreBtn4 = document.getElementById("readMoreBtn4");
+        const readMoreContent4 = document.getElementById("readMoreContent4");
+
+        readMoreBtn4.addEventListener("click", function() {
+            readMoreContent4.classList.toggle("expanded");
+
+            if (readMoreContent4.classList.contains("expanded")) {
+                readMoreBtn4.textContent = "Read Less";
+            } else {
+                readMoreBtn4.textContent = "Read More";
+            }
+        });
+
+
+
+
+        const readMoreBtn5 = document.getElementById("readMoreBtn5");
+        const readMoreContent5 = document.getElementById("readMoreContent5");
+
+        readMoreBtn5.addEventListener("click", function() {
+            readMoreContent5.classList.toggle("expanded");
+
+            if (readMoreContent5.classList.contains("expanded")) {
+                readMoreBtn5.textContent = "Read Less";
+            } else {
+                readMoreBtn5.textContent = "Read More";
+            }
+        });
+
+
+
+
+
+        const readMoreBtn6 = document.getElementById("readMoreBtn6");
+        const readMoreContent6 = document.getElementById("readMoreContent6");
+
+        readMoreBtn6.addEventListener("click", function() {
+            readMoreContent6.classList.toggle("expanded");
+
+            if (readMoreContent6.classList.contains("expanded")) {
+                readMoreBtn6.textContent = "Read Less";
+            } else {
+                readMoreBtn6.textContent = "Read More";
+            }
+        });
+
+
+
+
+
+        const readMoreBtn7 = document.getElementById("readMoreBtn7");
+        const readMoreContent7 = document.getElementById("readMoreContent7");
+
+        readMoreBtn7.addEventListener("click", function() {
+            readMoreContent7.classList.toggle("expanded");
+
+            if (readMoreContent7.classList.contains("expanded")) {
+                readMoreBtn7.textContent = "Read Less";
+            } else {
+                readMoreBtn7.textContent = "Read More";
+            }
+        });
+
+
+
+
+        const readMoreBtn10 = document.getElementById("readMoreBtn10");
+        const readMoreContent10 = document.getElementById("readMoreContent10");
+
+        readMoreBtn10.addEventListener("click", function() {
+            readMoreContent10.classList.toggle("expanded");
+
+            if (readMoreContent10.classList.contains("expanded")) {
+                readMoreBtn10.textContent = "Read Less";
+            } else {
+                readMoreBtn10.textContent = "Read More";
+            }
+        });
+
+
+
+        const readMoreBtn11 = document.getElementById("readMoreBtn11");
+        const readMoreContent11 = document.getElementById("readMoreContent11");
+
+        readMoreBtn11.addEventListener("click", function() {
+            readMoreContent11.classList.toggle("expanded");
+
+            if (readMoreContent11.classList.contains("expanded")) {
+                readMoreBtn11.textContent = "Read Less";
+            } else {
+                readMoreBtn11.textContent = "Read More";
+            }
+        });
+
+
+
+        const readMoreBtn8 = document.getElementById("readMoreBtn8");
+        const readMoreContent8 = document.getElementById("readMoreContent8");
+
+        readMoreBtn8.addEventListener("click", function() {
+            readMoreContent8.classList.toggle("expanded");
+
+            if (readMoreContent8.classList.contains("expanded")) {
+                readMoreBtn8.textContent = "Read Less";
+            } else {
+                readMoreBtn8.textContent = "Read More";
+            }
+        });
+        const readMoreBtn9 = document.getElementById("readMoreBtn9");
+        const readMoreContent9 = document.getElementById("readMoreContent9");
+
+        readMoreBtn9.addEventListener("click", function() {
+            readMoreContent9.classList.toggle("expanded");
+
+            if (readMoreContent9.classList.contains("expanded")) {
+                readMoreBtn9.textContent = "Read Less";
+            } else {
+                readMoreBtn9.textContent = "Read More";
+            }
+        });
+        9
+    </script>
+
+    <!-- cotact us start -->
+
+    <section id="contact" style="max-height:200dvh; background:#dee2e6;" class=" mt-5 pt-5 pb-5">
+        <div class="container pt-3 mt-2 mt-sm-5">
+            <div class="" id="vasanth">
+                <h1 class="text-center title "> Contact Us</h1>
+                <h4 class="text-center mt-4">Get in touch with our team to learn more about our services and <br>training programs</h4>
+
+                <div class="row mt-5">
+                    <div class="col-lg-6">
+                        <div class="sha">
+
+                            <div class="mb-8">
+                                <h3 class="sub-title mb-3">Get In Touch</h3>
+                                <p class="pp">Have questions about our services or training programs? <br> Our team is here to help you.</p>
+
+                                <div class="space-y-4">
+                                    <div class="flex items-start">
+                                        <div class="w-10 h-10 flex items-center justify-center bg-blue-100 rounded-full mr-3">
+                                            <i class="ri-map-pin-line text-primary"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="h5">Our Location</h5>
+                                            <p class="pp"> <b>TECHNOCRATE,</b> <br> 4 A2, NGN St, <br> New Siddhapudur, Coimbatore, <br> Tamil Nadu - 641 044</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-start">
+                                        <div class="w-10 h-10 flex items-center justify-center bg-blue-100 rounded-full mr-3">
+                                            <i class="ri-phone-line text-primary"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="h5">Phone</h5>
+                                            <p class="pp"> <a href="tel:+919092902492">+91 90929 02492</a></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-start">
+                                        <div class="w-10 h-10 flex items-center justify-center bg-blue-100 rounded-full mr-3">
+                                            <i class="ri-mail-line text-primary"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="h5">Email</h5>
+                                            <p class="pp">info@technocrate.com</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-start">
+                                        <div class="w-10 h-10 flex items-center justify-center bg-blue-100 rounded-full mr-3">
+                                            <i class="ri-time-line text-primary"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="h5">Office Hours</h5>
+                                            <p class="pp">Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 2:00 PM</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-6">
+                        <div class="sha mt-4 mt-sm-0">
+
+                            <section class="">
+                                <div class="container">
+                                    <div class="row ">
+
+                                        <!-- Left: Map -->
+                                        <div class="">
+                                            <h3 class="sub-title mb-3">Our Location</h3>
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3910.240453674872!2d76.96727297461952!3d11.018340854742064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859ddfb7d3f0d%3A0xf7e5c2b91a05b703!2sTechnocrate!5e0!3m2!1sen!2sin!4v1693478653025!5m2!1sen!2sin"
+                                                width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+                                        </div>
+
+                                        <!-- Right: Social Links -->
+                                        <div class="">
+                                            <h3 class="sub-title mt-3">Connect With Us</h3>
+                                            <div class="d-flex gap-3 mt-3">
+                                                <a href="#" class="btn btn-light roundedf-circle p-3"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#" class="btn btn-light roundfed-circle p-3"><i class="fab fa-twitter"></i></a>
+                                                <a href="#" class="btn btn-light roundfed-circle p-3"><i class="fab fa-instagram"></i></a>
+                                                <a href="#" class="btn btn-light roundfed-circle p-3"><i class="fab fa-linkedin-in"></i></a>
+                                                <a href="#" class="btn btn-light roundfed-circle p-3"><i class="fab fa-youtube"></i></a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </section>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+    <!-- cotact us end -->
+
+    <div class="container-fluid mf p-5">
+        <h1 class="text-center text-light mt-5"><b>Ready to Start Your Creative Career?</b></h1>
+        <h5 class="text-center text-light mt-3">Join Technocrate today and transform your passion into a professional career <br>with our industry-focused training programs.</h5>
+        <div class="d-flex mt-5 gap-3 justify-content-center mb-5">
+            <a href="#training" class="btn btn-lg btn-danger">Explore Courses</a>
+            <a href="#services" class="btn btn-lg btn-dangeros">Our Services</a>
+        </div>
+
     </div>
-</section>
-<!-- cotact us end -->
-
-<div class="container-fluid mf p-5">
-  <h1 class="text-center text-light mt-5"><b>Ready to Start Your Creative Career?</b></h1>
-  <h5 class="text-center text-light mt-3">Join Technocrate today and transform your passion into a professional career  <br>with our industry-focused training programs.</h5> 
-  <div class="d-flex mt-5 gap-3 justify-content-center mb-5">
-                <a href="#training" class="btn btn-lg btn-danger">Explore Courses</a>
-                <a href="#services" class="btn btn-lg btn-dangeros">Our Services</a>
-          </div>
-
-</div>
-<!-- whatsapp -->
+    <!-- whatsapp -->
     <a href="https://wa.me/919876543210" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
         <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="50" height="50">
     </a>
     <!-- whatsapp -->
-<footer class="p-5 footer" >
-  <div class="row">
-    <div class="col-lg-3">
-      <div class="wight p-3">
-        <img src="./img/Technocrate_logo_png.png" alt="" class="w-100">
-        <h5 class="mt-4">Empowering creative professionals with industry-relevant skills and services.</h5>
-         <div class="d-flex gap-3 mt-3">
-          <a href="#" class="btn  roundedf-circle "><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="btn  roundfed-circle "><i class="fab fa-twitter"></i></a>
-          <a href="#" class="btn  roundfed-circle "><i class="fab fa-instagram"></i></a>
-          <a href="#" class="btn  roundfed-circle "><i class="fab fa-linkedin-in"></i></a>
-          <a href="#" class="btn  roundfed-circle "><i class="fab fa-youtube"></i></a>
+    <footer class="p-5 footer">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="wight p-3">
+                    <img src="./img/Technocrate_logo_png.png" alt="" class="w-100">
+                    <h5 class="mt-4">Empowering creative professionals with industry-relevant skills and services.</h5>
+                    <div class="d-flex gap-3 mt-3">
+                        <a href="#" class="btn  roundedf-circle "><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="btn  roundfed-circle "><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="btn  roundfed-circle "><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="btn  roundfed-circle "><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="btn  roundfed-circle "><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 px-0 px-sm-5 mt-4 mt-sm-0">
+                <h4 class="text-light">Quick Links </h4>
+                <h6 class="mt-3 subb"><a href="#home">Home</a></h6>
+                <h6 class="mt-3 subb"><a href="#about">About Us</a></h6>
+                <h6 class="mt-3 subb"><a href="#training">Training</a></h6>
+                <h6 class="mt-3 subb"><a href="#services">Services</a></h6>
+                <h6 class="mt-3 subb"><a href="#contact">Contact</a></h6>
+            </div>
+
+
+            <div class="col-lg-2 px-0 px-sm-5 mt-4 mt-sm-0">
+                <h4 class="text-light">Training </h4>
+                <h6 class="mt-3 subb"><a href="#home">Home</a></h6>
+                <h6 class="mt-3 subb"><a href="#about">About Us</a></h6>
+                <h6 class="mt-3 subb"><a href="#training">Training</a></h6>
+                <h6 class="mt-3 subb"><a href="#services">Services</a></h6>
+                <h6 class="mt-3 subb"><a href="#contact">Contact</a></h6>
+            </div>
+
+
+            <div class="col-lg-2 px-0 px-sm-5">
+                <h4 class="text-light"> Services</h4>
+                <h6 class="mt-3 subb"><a href="#home">Home</a></h6>
+                <h6 class="mt-3 subb"><a href="#about">About Us</a></h6>
+                <h6 class="mt-3 subb"><a href="#training">Training</a></h6>
+                <h6 class="mt-3 subb"><a href="#services">Services</a></h6>
+                <h6 class="mt-3 subb"><a href="#contact">Contact</a></h6>
+            </div>
+
+
+
+            <div class="col-lg-2 px-0 px-sm-5">
+                <h4 class="text-light">Reach Us</h4>
+                <h6 class="mt-3 subb"><a href="tel:+919092902492">+91 90929 02492</a></h6>
+                <h6 class="mt-3 subb"><a href="mailto:info@technocrate.com">info@technocrate.com</a></h6>
+                <h6 class="mt-3 subb">
+                    <a href="#training"> <b>TECHNOCRATE,</b>
+                        <br> New Siddhapudur, Coimbatore, <br> Tamil Nadu - 641044</a>
+                </h6>
+
+            </div>
         </div>
-      </div>
+
+    </footer>
+    <div class="p-1 " style="background-color: #111827;">
+        <hr class="text-light">
+        <div class="row px-3">
+            <div class="col">
+                <h6 class="text-light text-center text-sm-start">© 2025 Technocrate. All rights reserved.</h6>
+            </div>
+            <div class="col d-none d-sm-block">
+                <h6 class="text-light text-end">
+                    Privacy Policy &#160; &#160; Terms of Service &#160; &#160;Cookie Policy</h6>
+            </div>
+        </div>
     </div>
 
-    <div class="col-lg-2 px-0 px-sm-5 mt-4 mt-sm-0">
-      <h4 class="text-light">Quick Links </h4>
-      <h6 class="mt-3 subb"><a href="#home">Home</a></h6>
-      <h6 class="mt-3 subb"><a href="#about">About Us</a></h6>
-      <h6 class="mt-3 subb"><a href="#training">Training</a></h6>
-      <h6 class="mt-3 subb"><a href="#services">Services</a></h6>
-      <h6 class="mt-3 subb"><a href="#contact">Contact</a></h6>
-    </div>
+    <!-- Bootstrap JS -->
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 900, // animation duration in ms
+            once: true // animation happens only once
+        });
+    </script>
 
-    <div class="col-lg-2 px-0 px-sm-5 mt-4 mt-sm-0">
-      <h4 class="text-light">Training </h4>
-      <h6 class="mt-3 subb"><a href="#home">Home</a></h6>
-      <h6 class="mt-3 subb"><a href="#about">About Us</a></h6>
-      <h6 class="mt-3 subb"><a href="#training">Training</a></h6>
-      <h6 class="mt-3 subb"><a href="#services">Services</a></h6>
-      <h6 class="mt-3 subb"><a href="#contact">Contact</a></h6>
-    </div>
-
-
-     <div class="col-lg-2 px-0 px-sm-5">
-      <h4 class="text-light">  Services</h4>
-      <h6 class="mt-3 subb"><a href="#home">Home</a></h6>
-      <h6 class="mt-3 subb"><a href="#about">About Us</a></h6>
-      <h6 class="mt-3 subb"><a href="#training">Training</a></h6>
-      <h6 class="mt-3 subb"><a href="#services">Services</a></h6>
-      <h6 class="mt-3 subb"><a href="#contact">Contact</a></h6>
-    </div>
-    
-
-
-     <div class="col-lg-2 px-0 px-sm-5">
-      <h4 class="text-light">Reach Us</h4>
-      <h6 class="mt-3 subb"><a href="tel:+919092902492">+91 90929 02492</a></h6>
-      <h6 class="mt-3 subb"><a href="mailto:info@technocrate.com">info@technocrate.com</a></h6>
-      <h6 class="mt-3 subb"><a href="#training"> <b>TECHNOCRATE,</b>
-<br>
-New Siddhapudur, Coimbatore, <br>
-Tamil Nadu - 641044</a></h6>
-      
-    </div>
-  </div>
-  
-</footer>
-<div class="p-1 " style="background-color: #111827;">
-  <hr class="text-light">
-  <div class="row px-3">
-    <div class="col"><h6 class="text-light text-center text-sm-start">© 2025 Technocrate. All rights reserved.</h6></div>
-    <div class="col d-none d-sm-block"><h6 class="text-light text-end">
-Privacy Policy &#160; &#160; Terms of Service &#160; &#160;Cookie Policy</h6></div>
-  </div>
-</div>
-
-<!-- Bootstrap JS -->
-
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init({
-    duration: 900,  // animation duration in ms
-    once: true      // animation happens only once
-  });
-</script>
-
-<script defer="defer" src="https://unpkg.com/swiper@8/swiper-bundle.min.js" onload="initializeSwiperRANDOMID();"></script>
+    <script defer="defer" src="https://unpkg.com/swiper@8/swiper-bundle.min.js" onload="initializeSwiperRANDOMID();"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-  // Close mobile menu on link click
-  document.querySelectorAll('.nav-link').forEach(link => {
-    link.addEventListener('click', () => {
-      const navbarToggler = document.querySelector('.navbar-toggler');
-      const navbarCollapse = document.querySelector('.navbar-collapse');
+        // Close mobile menu on link click
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                const navbarToggler = document.querySelector('.navbar-toggler');
+                const navbarCollapse = document.querySelector('.navbar-collapse');
 
-      if (navbarToggler.offsetParent !== null) { // Visible on mobile
-        new bootstrap.Collapse(navbarCollapse).toggle();
-      }
-    });
-  });
-  document.addEventListener("DOMContentLoaded", function() {
-  const section = document.getElementById("vasanth");
+                if (navbarToggler.offsetParent !== null) { // Visible on mobile
+                    new bootstrap.Collapse(navbarCollapse).toggle();
+                }
+            });
+        });
+        document.addEventListener("DOMContentLoaded", function() {
+            const section = document.getElementById("vasanth");
 
-  function checkVisibility() {
-    const rect = section.getBoundingClientRect();
-    if (rect.top < window.innerHeight && rect.bottom > 0) {
-      section.classList.add("show");
-    }
-  }
+            function checkVisibility() {
+                const rect = section.getBoundingClientRect();
+                if (rect.top < window.innerHeight && rect.bottom > 0) {
+                    section.classList.add("show");
+                }
+            }
 
-  window.addEventListener("scroll", checkVisibility);
-  checkVisibility(); // Run on load in case already visible
-});
-</script>
+            window.addEventListener("scroll", checkVisibility);
+            checkVisibility(); // Run on load in case already visible
+        });
+    </script>
 
 </body>
+
 </html>
