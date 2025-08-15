@@ -275,6 +275,7 @@ footer {
     height: 200px;
     object-position: center;
     object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .testimonial-card {
@@ -325,6 +326,10 @@ body {
 
 .card {
     height: 600px !important;
+    margin-top: 12px;
+}
+.cardd:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .name {
@@ -453,6 +458,8 @@ body {
 
 .cardd {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    
 }
 
 .read-more-btn11 {
@@ -508,3 +515,4 @@ li {
         /* taller navbar in mobile view */
     }
 }
+
